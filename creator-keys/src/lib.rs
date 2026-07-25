@@ -80,6 +80,9 @@ pub enum ContractError {
     WhitelistOnly = 31,
     WhitelistTooLarge = 32,
     AirdropRecipientLimitExceeded = 33,
+    InvalidReferrer = 34,
+    WalletCapExceeded = 35,
+    DiscountTierLimitExceeded = 36,
 }
 
 pub mod fee {
